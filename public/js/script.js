@@ -44,6 +44,7 @@ function ChatBotResponse(userMessage){
             { duration: 500, easing: "ease-in" }
         );
         chatContainer.appendChild(messageElement);
+        chatContainer.scrollTop = chatContainer.scrollHeight;
     }, 500);
 
 }
